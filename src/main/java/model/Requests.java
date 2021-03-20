@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Getter
 @Setter
-@NoArgsConstructor
+//@NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @XmlRootElement(name = "requests")
@@ -34,6 +34,10 @@ public class Requests {
     }
 
     public Requests(long id, String full_name, long birth_year, String gender) {
+
+    }
+
+    public Requests() {
 
     }
 
